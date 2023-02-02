@@ -10,7 +10,6 @@ namespace Core_Proje.Controllers
         SkillManager skillManager = new SkillManager(new EfSkillDal());
         public IActionResult Index()
         {
-
             ViewBag.v1 = "Yetenek Listesi";
             ViewBag.v2 = "Yetenekler";
             ViewBag.v3 = "Yetenek Listesi";
